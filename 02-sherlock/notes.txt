@@ -1,0 +1,26 @@
+notes
+#procesas
+
+- [ ]pradine failu struktura
+-index.html
+-gitignore
+
+- [ ]paviesinti projekta per Github Pages (gausim URL)
+
+README.md
+skirta aprasyti kas ka ir kodel
+iterpti nuoroda i daroma dizian
+iterpti koda  kur tas musu kodas gali buti pamatytas
+
+- [ ]atlikti dizaino analize
+surasyti HTML
+issikirpti nuotraukas ir jas panaudoti
+panaudoti realityvius kelius
+
+aprasyti stilius
+#pasiskaitymui sintakse www....
+Norint iskisikirpti fona:
+Magic want- tolerance
+ctrl+i
+ctrl + shift+ x
+ctrl + s 
