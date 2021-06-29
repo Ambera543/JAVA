@@ -1,0 +1,31 @@
+</head>
+
+<body style="background-color: #EAEBED;">
+    <img style="margin-top: 140px; margin-left: 25%; margin-right: 5%; display: inline-block; width: 20%; float: left;" src="./serlokas.jpg" alt="Serlokas su pypke menesienoje">
+    <main style="display: inline-block; width: 25%; float: left; margin-top: 200px;">
+        <h1 style="">404</h1>
+        <p style="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur laboriosam, atque non repudiandae dignissimos recusandae.</p>
+    <img style="margin-top: 140px; margin-left: 25%; margin-right: 5%; width: 20%; float: left;" src="./serlokas.jpg" alt="Serlokas su pypke menesienoje">
+    <main style="width: 25%; float: left; margin-top: 200px; text-align: center;">
+        <h1 style="font-size: 100px; margin: 0;">404</h1>
+        <p style="margin: 0; font-size: 25px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur laboriosam, atque non repudiandae dignissimos recusandae.</p>
+        <p style="">Lorem ipsum dolor sit amet consectetur.</p>
+        <a style="" href="#">Back home</a>
+        <a style="text-transform: uppercase;" href="#">Back home</a>
+    </main>
+</body>
+
+</html>
+
+<!--
+Visos tekstines elemento savybes gali buti paveldetos vaiku.
+Jei neturime konkretaus nuotraukos failo, kuri ketiname naudoti, tai src priskiriame # reiksme
+fono spalva: background-color
+@@ -48,4 +50,10 @@ <h1 style="">404</h1>
+float: left;
+float: right;
+Teksto stiliaus savybes:
+font-size           // srifto dydis
+color               // teksto spalva
+text-transform      // teksto tranformavimas
+text-align          // teksto lygiavimas
