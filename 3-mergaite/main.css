@@ -1,0 +1,10 @@
+.textstyle {
+    background-color: none; 
+    font-weight: bold; 
+    border-radius: 10px;
+    width: auto; 
+    height: auto; 
+    padding: 5px 20px 5px 20px; 
+    font-size: 10px; 
+    border: 2px  solid grey;
+  } 
