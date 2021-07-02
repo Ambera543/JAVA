@@ -1,0 +1,23 @@
+body{  
+}
+
+.container {
+    display: inline-block;
+    width: 800px;
+}
+ .left-column{
+    display: inline-block;
+    float:left;
+    width: 40%;
+}
+
+.right-column {
+    display: inline-block;
+    float:right;
+    width: 60%;
+    font-weight: bold;
+}
+
+.button {
+border-radius: 10px;
+}
