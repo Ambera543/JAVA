@@ -4,11 +4,22 @@ body{
 .container {
     display: inline-block;
     width: 800px;
+    margin-top: 10px;
+    margin-left: calc(50% - 400px);
 }
  .left-column{
     display: inline-block;
     float:left;
-    width: 40%;
+    box-sizing: border-box;
+    width: calc (40% - 110px);
+    background-color:#5780D9 ;
+    color: cornsilk;
+    padding: 50px;
+    padding-bottom: 20px;
+}
+a{ 
+    color: cornsilk;
+
 }
 
 .right-column {
@@ -16,8 +27,6 @@ body{
     float:right;
     width: 60%;
     font-weight: bold;
+    background-color: #fff;
 }
 
-.button {
-border-radius: 10px;
-}
