@@ -9,39 +9,56 @@ form> .form-row > {
 }
 form> .form-row:nth-child(1) {
     margin-top: 0;
+}
 
 form> .form-row > label {
-    display: inline-block;
     width: 100%;
-    font-size: 17px;
+    font-size: 15px;
     margin-bottom: 5px;
-    color: grey;
+    color: #777;
     text-transform: uppercase;
 }
 
 form> .form-row > input {
     display: inline-block;
     width: 100%;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 30px;
     border: none;
-    border bottom: 2px solid grey;
+    border-bottom: 2px solid #ccc;
 }
 
 form> .form-row > button {
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 15px;
+    line-height: 15px;
     text-transform: capitalize;
     padding: 5px;
     padding-left: 30px;
     padding-right: 30px;
-    border-radius: 20px;
+    border-radius: 18px;
     background-color: #005dd8;
     color: #fff;
-    border-color: #0f53b7;
+    border-color: none;
+}
+form> .form-row > button:hover {
+    cursor:pionter;
 }
 
 form> .form-row > span {
+    display: inline-block;
+    line-height: 26px;
+    padding:5px;
+    margin-left: 5px;
+    font-size: 17px;
 }
 form> .form-row > a {
+    display: inline-block;
+    line-height: 26px;
+    padding: 5px;
+    text-decoration: none;
+    color: #005dd8;
+}
+
+form> .form-row > a:hover {
+    text-decoration: underline;
 }
