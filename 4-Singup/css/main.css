@@ -15,8 +15,8 @@ body{
     float: left;
     background-color:#5780D9 ;
     color: cornsilk;
-    padding: 50px;
-    padding-bottom: 20px;
+    padding: 10px;
+    padding-bottom: 10px;
 }
 a{ 
     color: cornsilk;
@@ -30,8 +30,13 @@ a{
     width: 60%;
     font-weight: bold;
     background-color: #fff;
-    padding: 50px;
+    padding: 10px;
     padding-bottom: 20px;
 }
 .close {
+        cursor: pointer;
+        position:absolute;
+    
+
+        
 }
