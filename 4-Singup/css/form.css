@@ -7,11 +7,12 @@ form> .form-row > {
     width: 100%;
     margin-top: 30px;
 }
-form> .form-row:nth-child(1) {
-    margin-top: 0;
+form> .form-row:last-of-type {
+    margin-bottom: 0;
 }
 
 form> .form-row > label {
+    display: inline-block;
     width: 100%;
     font-size: 15px;
     margin-bottom: 5px;
@@ -22,15 +23,21 @@ form> .form-row > label {
 form> .form-row > input {
     display: inline-block;
     width: 100%;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 30px;
     border: none;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
-
+form> .form-row > input:focus-visible {
+    outline: 2px solid #777;
+}
+::placeholder{
+    font-style: italic;
+    color: #777;
+}
 form> .form-row > button {
-    font-size: 15px;
-    line-height: 15px;
+    font-size: 20px;
+    line-height: 26px;
     text-transform: capitalize;
     padding: 5px;
     padding-left: 30px;
@@ -42,6 +49,8 @@ form> .form-row > button {
 }
 form> .form-row > button:hover {
     cursor:pionter;
+    background: #0265de;
+    background: linear-gradient(53deg, #0265de 0%, #2348d4 100%);
 }
 
 form> .form-row > span {
@@ -57,6 +66,8 @@ form> .form-row > a {
     padding: 5px;
     text-decoration: none;
     color: #005dd8;
+    font-weight: bold;
+    font-size: 17px;
 }
 
 form> .form-row > a:hover {
