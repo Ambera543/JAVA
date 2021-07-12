@@ -1,5 +1,6 @@
 body{ 
- background-color: #44b2c8;   
+ background-color: #3f52b2;
+ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,52,124,0.9218390804597701) 35%, rgba(0,212,255,1) 100%); 
 }
 
 .background{
@@ -30,7 +31,7 @@ body{
     background-position: center;
     color: cornsilk;
     position:absolute;
-    padding: 40px;
+    padding: 10px;
     padding-bottom: 20px;
     top: 30px;
     bottom: 30px;
@@ -38,9 +39,10 @@ body{
 
 .bottom-texts {
 position: absolute;
+font-size: 15px;
 bottom: 20px;
-left: 40px;
-right: 40px;
+left: 10px;
+right: 10px;
 }
 
 .bottom-texts>a {
@@ -52,7 +54,7 @@ right: 40px;
     width: 60%;
     font-weight: bold;
     background-color: #fff;
-    padding: 60px;
+    padding: 40px;
     position: relative;
 }
 .close {
@@ -62,5 +64,6 @@ right: 40px;
        line-height: 60px;
         top:0;
         right: 0;
-       position:absolute;    
+       position:absolute;  
+       cursor: pointer;  
 }
