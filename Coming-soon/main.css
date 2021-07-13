@@ -1,0 +1,14 @@
+.body{ 
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.row {
+  display: inline-block;
+  float: left;
+}
+
+.column {
+  padding: 5px;
+  height: 400px; 
+}
