@@ -1,0 +1,22 @@
+
+.pavadinimas{
+  color: blue;
+}
+.container {
+    display: inline-block;
+    width: 1000px;
+    top: 50%;
+    left: 50%;
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  .left-column {
+    width: 40%;
+  }
+  
+  .right-column {
+    width: 60%;
+  }
+    
