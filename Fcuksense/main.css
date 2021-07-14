@@ -3,20 +3,14 @@
   color: blue;
 }
 .container {
-    display: inline-block;
-    width: 1000px;
-    top: 50%;
-    left: 50%;
-    float: left;
+    display: grid;
+    width: 1200px;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 400px; 
+    margin: auto;
+    grid-template-columns: 40% 60%;
   }
   
-  .left-column {
-    width: 40%;
+  .form-row {
+    padding: 10px;
   }
-  
-  .right-column {
-    width: 60%;
-  }
-    
