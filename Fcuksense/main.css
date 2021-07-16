@@ -2,6 +2,8 @@
 .pavadinimas{
   color: blue;
   font-size: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 .container {
     display: grid;
@@ -14,6 +16,7 @@
   
   .form-row {
     padding: 10px;
+ 
   }
   .button {
     background-color: rgb(60, 34, 134);
@@ -24,7 +27,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
-    margin: 5px 2px;
+    margin: 7px 3px;
     cursor: pointer;
   }
 
@@ -37,7 +40,7 @@
   background-color:#fff;
   border-style: solid;
   color: blue;
-  padding: 15px 30px;
+  padding: 12px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -45,5 +48,11 @@
   margin: 5px 2px;
   cursor: pointer;
 }
-
+.btn{
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 15px;
+  padding: 10px;
+}
   
