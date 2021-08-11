@@ -1,10 +1,4 @@
 
-.pavadinimas{
-  color: blue;
-  font-size: 20px;
-  margin-top: 100px;
-  margin-bottom: 80px;
-}
 .container {
     display: grid;
     width: 1000px;
@@ -18,7 +12,13 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
   }
-  
+  .pavadinimas{
+    color: blue;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+
   .form-row {
     padding: 10px;
   }
@@ -27,12 +27,11 @@
     color: grey;
   }
  
-
   .button {
     background-color: rgb(60, 34, 134);
     border: none;
     color: white;
-    padding: 15px 30px;
+    padding: 15px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;

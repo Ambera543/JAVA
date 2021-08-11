@@ -1,14 +1,25 @@
 .body{ 
-  box-sizing: border-box;
+  display: grid;
+  width: 1000px;
+  height: 600px; 
   text-align: center;
 }
 
-.row {
-  display: inline-block;
+.container {
+  display: grid;
   float: left;
+  width: 700px;
+  padding: 50px;
+  height: 600px; 
+  margin: auto;
+  grid-template-columns: 50% 50%;
 }
 
-.column {
-  padding: 5px;
-  height: 400px; 
+.left-column { 
+    display: grid;
+}
+
+.right-column {
+    display: grid;
+
 }
