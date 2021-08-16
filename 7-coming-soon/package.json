@@ -1,0 +1,12 @@
+{
+  "name": "7-coming-soon",
+  "version": "1.0.0",
+  "description": "30 group website project",
+  "main": "index.js",
+  "scripts": {
+      "dev": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gintare",
+  "license": "ISC"
+}
