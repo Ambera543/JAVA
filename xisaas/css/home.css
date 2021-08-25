@@ -1,0 +1,146 @@
+/* base */
+
+@import './base/reset.css';
+@import './base/variables.css';
+@import './base/layout.css';
+@import './base/base.css';
+
+/* 3rd-party */
+
+
+/* components */
+
+@import './components/button.css';
+@import './components/footer.css';
+@import './components/header.css';
+
+/* CUSTOM PAGE STYLE BELOW THIS COMMENT LINE */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+
+.col-1 {
+    flex-basis: 40%;
+    min-width: 300px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+    margin-bottom: 30px;
+}
+
+
+
+.underpicture {
+    position: relative;
+    float: right;
+    width: 40%;
+    margin-right: 20%;
+    margin-top: -65%;
+}
+
+.col-1 h1 {
+    margin-left: 25%;
+    color: #141F4E;
+    font-size: 38px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.col-1 p {
+    color: #8A95A7;
+    font-size: 17px;
+    margin: 25px 0 25px;
+    margin-left: 25%;
+    max-width: 580px;
+}
+
+.btn-x {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    background-color: #7DB1C5;
+    margin-left: 25%;
+    border-radius: 4rem;
+    padding: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.btn-x:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.btn-x:hover,
+.btn-x:focus,
+.btn-x:active {
+    color: rgb(253, 253, 253);
+    box-shadow: inset 300px 0 0 0 #682DE9;
+    transition: all ease-in-out 800ms;
+}
+
+.btn-x:hover:before,
+.btn-x:focus:before,
+.btn-x:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+/* Header Area Start /*
+/* Header Area End /*
+
+/* Hero.. Area Start /*
+/* Hero.. Area end /*
+
+/* Icons Area Start /*
+/* Icons Area End /*
+
+/* Cards Area Start /*
+/* Cards Area End /*
+
+/* Video Area Start /*
+/* Video Area End /*
+
+/* Why Choose area start /*
+/* Why Choose... area end /*
+
+/* Pricing area start /*
+/* Pricing area end /*
+
+/* Frequently area start /*
+/* Frequently area end /*
+    
+/* Need Contact.. area start /*
+/* Need Contact..  area end /*
+ 
+/* Be Notified area start /*
+/* Be Notified area end/*
